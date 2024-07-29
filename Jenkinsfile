@@ -1,10 +1,10 @@
 pipeline {
     agent {
-        docker {
-            image 'image 'scantist/backend-jenkins:latest''
-            args '-u root:root -v /var/run/docker.sock:/var/run/docker.sock'
-        }
-    }
+     docker {
+       image 'scantist/backend-jenkins:latest'
+       args '-u root:root -v /var/run/docker.sock:/var/run/docker.sock'
+     }
+   }
 
     stages {
         stage('Set up environment') {
