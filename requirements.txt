@@ -1,1 +1,1 @@
-kiwitcms==10.4-patched
+kiwitcms==10.4
